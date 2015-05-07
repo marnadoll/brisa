@@ -16,4 +16,32 @@
 /**
  * Implements hook_process_zone().
  */
+function brisatheme_process_zone(&$vars) {
+  $theme = alpha_get_theme();
 
+  if ($vars['elements']['#zone'] == 'title') {
+    $vars['breadcrumb'] = $theme->page['breadcrumb'];
+    $vars['title_prefix'] = $theme->page['title_prefix'];
+    $vars['title'] = $theme->page['title'];
+    $vars['title_suffix'] = $theme->page['title_suffix'];
+    $vars['title_hidden'] = $theme->page['title_hidden'];
+  }
+}
+
+
+function brisatheme_preprocess_html(&$vars) { 
+  $file = 'color-' . theme_get_setting('theme_color') . '-style.css';
+  drupal_add_css(path_to_theme() . '/css/'. $file, array('group' => CSS_THEME, 'weight' => 115,'browsers' => array(), 'preprocess' => FALSE));
+  $file = theme_get_setting('theme_layout') . '-style.css';
+  drupal_add_css(path_to_theme() . '/css/'. $file, array('group' => CSS_THEME, 'weight' => 116,'browsers' => array(), 'preprocess' => FALSE));
+ 
+  drupal_add_library('system', 'ui.accordion');
+  drupal_add_library('system', 'ui.tabs');
+  drupal_add_library('system', 'ui.progressbar');
+}
+
+function brisathem_form_simplenews_block_form_alter(&$form) {
+  $form['mail']['#title_display'] = 'invisible';
+  $form['mail']['#attributes']['placeholder'] = t('Email');
+  return $form;
+}
