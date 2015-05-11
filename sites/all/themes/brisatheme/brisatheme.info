@@ -1,5 +1,5 @@
 name = Brisa
-description = This is an adaptation of ST Octoban which is a Drupal theme created by Symphony Themes. 
+description = This is an adaptation of ST Octoban which is a Drupal theme created by Symphony Themes.
 core = 7.x
 engine = phptemplate
 screenshot = screenshot.png

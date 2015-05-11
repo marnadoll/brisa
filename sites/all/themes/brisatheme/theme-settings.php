@@ -19,7 +19,7 @@
  *   A keyed array containing the current state of the form.
  */ 
  
-function octoban_form_system_theme_settings_alter(&$form, $form_state) {
+function brisatheme_form_system_theme_settings_alter(&$form, $form_state) {
   global $base_url;
 
   // Get theme name from url (admin/.../theme_name)
@@ -33,7 +33,7 @@ function octoban_form_system_theme_settings_alter(&$form, $form_state) {
   // ST Fieldset
   $form['st_container'] = array(
     '#type' => 'fieldset',
-    '#title' => t('ST Octoban theme settings'),
+    '#title' => t('ST brisatheme theme settings'),
     '#description' => t('Use these settings to enhance the appearance of your SymphonyTheme theme.'),
     '#collapsible' => TRUE,
     '#collapsed' => FALSE,
