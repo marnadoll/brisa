@@ -110,8 +110,11 @@ blockquote {
 \*------------------------------------*/
 #page {
 }
+.section-header {
+  background: url("../images/harbor.jpeg") no-repeat fixed center top -320px;
+}
 .zone-user {
-  border-bottom: 1px solid #eee;
+ 
 }
 .zone-title-wrapper {
   color: #fff;
