@@ -110,11 +110,16 @@ blockquote {
 \*------------------------------------*/
 #page {
 }
+
+.zone-user-wrapper {
+  background: none;
+}
 .zone-user {
   border-bottom: 1px solid #eee;
 }
 .zone-title-wrapper {
   background: none;
+  background-color: none;
   color: #fff;
 }
 .zone-title {
