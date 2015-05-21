@@ -123,7 +123,7 @@ blockquote {
   padding: 30px 0;
 }
 .zone-branding-wrapper {
-  background: #fff;
+  background: url(../images/sail.png) center top no-repeat;;
   padding-top: 3px;
 }
 
@@ -137,7 +137,8 @@ blockquote {
   border: 2px;
 }
 .zone-header-wrapper {
-  background: #fff;
+  background: url(../images/fabricbkgd.jpg) 0 top repeat-x;
+  padding: 30px 0 10px;
 }
 /*.region-sidebar-second {
   border: 2px;
@@ -148,7 +149,7 @@ blockquote {
 */
 .zone-preface-wrapper {
   padding-top: 15px;
-  background: #FEFB64;
+  background: #fff,
 }
 .zone-full-width {
   background: #fff;
@@ -156,6 +157,7 @@ blockquote {
 
 .zone-content-top {
   padding-top: 30px;
+  background: url(../images/planks.png) 0 top repeat-x;
 }
 .zone-feature-top {
   padding: 30px 0 10px;
@@ -170,7 +172,7 @@ blockquote {
 .zone-content-bottom-fourth-wrapper,
 .zone-content-bottom-fifth-wrapper,
 .zone-content-bottom-fifth-wrapper {
-  background: #fff url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
+  background: url(../images/zone-wrapper-shadow.png) 0 top repeat-x;
 }
 
 .zone-feature-middle,
@@ -199,7 +201,7 @@ blockquote {
     padding-bottom: 5px;
 }
 .zone-postscript-wrapper {
-  background: #606060;
+  background: #fff;
   color: #000;
 }
 .zone-postscript {
