@@ -8,7 +8,7 @@ body {
   padding: 0;
   font-size: 87.5%; /* 14px */
   line-height: 1.714;
-  color: #666;
+  color: #fff;
   font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
 }
 a,
@@ -112,6 +112,10 @@ blockquote {
 \*------------------------------------*/
 #page {
 }
+
+.zone-user-wrapper {
+  background: url(../images/sail2.jpg) 0 top repeat;
+}
 .zone-user {
   border-bottom: 1px solid #eee;
 }
@@ -123,7 +127,7 @@ blockquote {
   padding: 30px 0;
 }
 .zone-branding-wrapper {
-  background: url(../images/sail.png) center top no-repeat;;
+  background: #ccc url(../images/sail2.jpg) 0 top repeat ;
   padding-top: 3px;
 }
 
@@ -137,7 +141,7 @@ blockquote {
   border: 2px;
 }
 .zone-header-wrapper {
-  background: url(../images/fabricbkgd.jpg) 0 top repeat-x;
+  background: url(../images/fabricbkgd.jpg) 0 top repeat;
   padding: 30px 0 10px;
 }
 /*.region-sidebar-second {
