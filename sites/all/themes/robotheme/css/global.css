@@ -140,7 +140,7 @@ blockquote {
 }
 .zone-header-wrapper {
   background: url(../images/fabricbkgd.jpg) 0 top repeat;
-  padding: 70px 0 10px;
+  padding: 80px 0 10px;
 }
 /*.region-sidebar-second {
   border: 2px;
@@ -159,11 +159,10 @@ blockquote {
 
 .zone-content-top {
   padding-top: 30px;
-  background: url(../images/planks.png) 0 top repeat-x;
 }
-.zone-feature-top {
+.zone-feature-wrapper {
   padding: 30px 0 10px;
-  background: #fff;
+  background: #fff url(../images/planks.jpg) 0 top repeat-x;
 }
 .zone-feature-middle-wrapper,
 .zone-feature-bottom-wrapper,
