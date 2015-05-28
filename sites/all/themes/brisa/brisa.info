@@ -1,5 +1,5 @@
-name = 'robotheme'
-description = 'Robotfest theme'
+name = 'brisa'
+description = 'Brisa theme'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
@@ -38,17 +38,21 @@ zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 zones[footer] = Footer
 
-stylesheets[all][] = css/robo-reset.css
+stylesheets[all][] = css/brisa-reset.css
 stylesheets[all][] = css/global.css
+
+scripts[] = js/waypoints.js
+scripts[] = js/script.js
+scripts[] = js/custom.js
 
 
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
 
-css[robo-reset.css][name] = Reset
-css[robo-reset.css][description] = standard copy.
-css[robo-reset.css][options][weight] = -20
+css[brisa-reset.css][name] = Reset
+css[brisa-reset.css][description] = standard copy.
+css[brisa-reset.css][options][weight] = -20
 
 ; THEME SETTINGS (DEFAULTS)
 
