@@ -129,18 +129,18 @@ blockquote {
 }
 
 .zone-menu-wrapper {
-  padding-bottom: 30px;
-  background: url(../images/fabricbkgd.jpg) 0 top repeat;
+  /*padding-bottom: 30px;
+  background: url(../images/fabricbkgd.jpg) 0 top repeat;*/
 }
 .zone-menu {
   background: none;
-  float: right;
+  /*float: right;
   padding: 10px;
-  border: 2px;
+  border: 2px;*/
 }
 .zone-header-wrapper {
   background: url(../images/fabricbkgd.jpg) 0 top repeat;
-  padding: 80px 0 10px;
+  padding: 200px 0 10px;
 }
 /*.region-sidebar-second {
   border: 2px;
