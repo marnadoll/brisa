@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/* Palette UID: 33k0p0knJzhdPNIjgFvtevovfov*/
 /*------------------------------------*\
 	RESET
 \*------------------------------------*/
@@ -114,10 +115,10 @@ blockquote {
 }
 
 .zone-user-wrapper {  
-   background: url(../images/userline.png); 
+   background: #fff; 
 }
 .zone-user {
-  border-bottom: 1px solid #eee;
+  border-bottom: /*1px solid #eee;*/
 }
 .zone-title-wrapper {
  /* background: #009efe url(../images/zone-header-wrapper-shadow.png) center top no-repeat;*/
@@ -127,13 +128,12 @@ blockquote {
   padding: 30px 0;
 }
 .zone-branding-wrapper {
-   background: url(../images/header.png);
-
+   background: #fff;
 }
 
 .zone-menu-wrapper {
   padding-bottom: 30px;
-  background: url(../images/menu.png);
+  background: #fff;
 }
 .zone-menu {
   background: none;
@@ -141,7 +141,7 @@ blockquote {
   border: 2px;
 }
 .zone-header-wrapper {
-  background: url(../images/fabricbkgd.jpg) 0 top repeat;
+  background: #046D77;
   padding: 200px 0 10px;
 }
 /*.region-sidebar-second {
@@ -164,8 +164,39 @@ blockquote {
 }
 .zone-feature-wrapper {
   padding: 30px 0 10px;
-  background: #fff url(../images/planks.jpg) 0 top repeat-x;
+  background: #4CB2B2; /*url(../images/planks.jpg) 0 top repeat-x;*/
 }
+
+.region-sidebar-first {
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-color: #FFBD42;
+  border-width: medium;
+  height: 375px;
+  padding: 5px
+  background: #FFD891;
+}
+
+.region-sidebar-second {
+  border-right-style: solid;
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #FFBD42;
+  border-width: medium;
+  height: 375px;
+  padding: 5px;
+  background: #FFD891;
+}
+
+/*.region-sidebar-second {
+  border-style: solid;
+  border-color: #FFBD42;
+}
+*/
+
 .zone-feature-middle-wrapper,
 .zone-feature-bottom-wrapper,
 .zone-content-wrapper,
@@ -194,15 +225,17 @@ blockquote {
 }
 
 .zone-feature-wrapper {
+  border-bottom: 1px solid #7BCED6;
 }
 
 .zone-feature {
 
 }
 .region-feature h2.block-title {
-    border-bottom: 1px solid #e61610;
+    border-bottom: none;
     padding-bottom: 5px;
 }
+
 .zone-postscript-wrapper {
   background: #fff url(../images/sailfade.png) 0 repeat;
   color: #000;
@@ -218,6 +251,20 @@ blockquote {
   padding-top: 20px;
 }
 
+/*------------------------------------*\
+	Node Block CSS
+\*------------------------------------*/
+/*
+ * Using block class adding CSS selectors to theme node blocks.
+ */
+
+/*.cancel-wrapper {
+  background: #046D77;
+}
+.booking-wrapper {
+   background: #046D77;
+}
+*/
 /*------------------------------------*\
 	Pages CSS
 \*------------------------------------*/
@@ -710,6 +757,7 @@ ul#main-menu li a,
   padding: 0px 20px;
   font-family: 'Roboto Slab', Arial,Helvetica,Verdana,sans-serif;
 }
+
 .region-menu .block-nice-menus {
    margin-bottom: 0;
    padding-top: 10px;
@@ -2792,8 +2840,8 @@ h2.block-title {
 
 .region-sidebar-second h2.block-title,
 .region-sidebar-first h2.block-title {
-  border-bottom: 1px solid #E61610;
-  padding-bottom: 10px;
+  /*border-bottom: 1px solid #E61610;
+  padding-bottom: 10px;*/
 }
 .zone-postscript h2.block-title {
   color: #fff;
