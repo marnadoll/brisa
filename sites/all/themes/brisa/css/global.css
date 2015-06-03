@@ -175,8 +175,10 @@ blockquote {
   border-color: #FFBD42;
   border-width: medium;
   height: 375px;
-  padding: 5px
-  background: #FFD891;
+  width: 100%;
+  padding: 5px;
+  background: #FFFB91;
+  float: right;
 }
 
 .region-sidebar-second {
@@ -187,8 +189,10 @@ blockquote {
   border-color: #FFBD42;
   border-width: medium;
   height: 375px;
+  width: 100%;
   padding: 5px;
-  background: #FFD891;
+  background: #FFFB91;
+  float: left;
 }
 
 /*.region-sidebar-second {
