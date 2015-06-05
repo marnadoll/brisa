@@ -34,6 +34,7 @@ zones[user] = 'User'
 zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[feature] = 'Feature Top'
+zones[sidebar] = 'Sidebar'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 zones[footer] = Footer
