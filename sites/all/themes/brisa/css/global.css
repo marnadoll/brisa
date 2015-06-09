@@ -170,18 +170,17 @@ blockquote {
 .zone-sidebar-wrapper {
   height: 400px;
   width: 100%;
-  padding: 5px;
+  background: #FFFB91;
+  padding-top: 5px;
 }
 .region-sidebar-first {
   height: 380px;
   padding: 5px;
-  background: #FFFB91;
 }
 
 .region-sidebar-second {
   height: 380px;
   padding: 5px;
-  background: #FFFB91;
 }
 
 /*.region-sidebar-second {
@@ -230,7 +229,7 @@ blockquote {
 }
 
 .zone-postscript-wrapper {
-  background: #fff url(../images/sailfade.png) 0 repeat;
+  background: #61CACF;
   color: #000;
 }
 .zone-postscript {
@@ -299,7 +298,7 @@ div#site-name {
 /* SlideShow */
 
 .views-slideshow-cycle-main-frame .views_slideshow_cycle_teaser_section {
-  width: 1200px; 
+  width: 100%; 
 }
 
 
@@ -735,7 +734,7 @@ ul#main-menu,
   padding: 1px 0 0px 0;
   text-align: center;
   width: 100%;
-  float: left;
+  /*float: left;*/
 }
 ul#main-menu li,
 .region-menu ul.menu li {
