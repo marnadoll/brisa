@@ -645,3 +645,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
   }
 }())
 ;
+
+jQuery('#block-rates').waypoint(function() {
+   alert('You have scrolled to the comments.');
+});

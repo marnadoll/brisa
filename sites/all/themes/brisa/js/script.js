@@ -1,6 +1,4 @@
 jQuery(document).ready(function($) {
-  // Target your .container, .wrapper, .post, etc.
-    $(".past_videos").fitVids();
   
   // Smooth scrolling
     $('a[href*=#]:not([href=#])').click(function() {
@@ -54,3 +52,14 @@ jQuery('.middle').waypoint(function(direction) {
 
   
 });
+
+jQuery('#block-rates').waypoint(function() {
+   alert('You have scrolled to the comments.');
+});
+
+var waypoint = new Waypoint({
+  element: document.getElementById('#waypoint'),
+  handler: function(direction) {
+    console.log('Scrolled to waypoint!')
+  }
+})

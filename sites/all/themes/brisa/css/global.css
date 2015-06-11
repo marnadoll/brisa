@@ -9,7 +9,7 @@ body {
   padding: 0;
   font-size: 87.5%; /* 14px */
   line-height: 1.714;
-  color: #fff;
+  color: #000;
   font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
 }
 a,
@@ -86,7 +86,7 @@ article.node ol ul {
 }
 pre,
 div.code {
-  border-left: 5px solid #009efe;
+  border-left: 5px solid #61cacf;
   background: #eee;
   color: #000;
   padding: 0.2em 10px;
@@ -115,7 +115,7 @@ blockquote {
 }
 
 .zone-user-wrapper {  
-   background: #fff; 
+   background: #9A8F83; 
 }
 .zone-user {
   border-bottom: /*1px solid #eee;*/
@@ -152,7 +152,8 @@ blockquote {
 */
 .zone-preface-wrapper {
   padding-top: 15px;
-  background: #fff,
+  background: #fff url(../images/texture.png) 0 top repeat;
+  border-bottom: #046D77 5px solid;
 }
 .zone-full-width {
   background: #fff;
@@ -169,24 +170,25 @@ blockquote {
 .zone-sidebar-wrapper {
   height: 400px;
   width: 100%;
-  background: #FFFB91;
+  background: #fff;
   padding-top: 5px;
 }
 .region-sidebar-first {
   height: 380px;
   padding: 5px;
 }
-
+.zone-sidebarsecond-wrapper {
+  height: 400px;
+  width: 100%;
+  background: #fff url(../images/chesapeake-baytrans.jpeg) center;
+  opacity: 
+  padding-top: 5px;
+}
 .region-sidebar-second {
   height: 380px;
   padding: 5px;
 }
 
-/*.region-sidebar-second {
-  border-style: solid;
-  border-color: #FFBD42;
-}
-*/
 
 .zone-feature-middle-wrapper,
 .zone-feature-bottom-wrapper,
@@ -228,15 +230,15 @@ blockquote {
 }
 
 .zone-postscript-wrapper {
-  background: #61CACF;
+  background: #61CACF url(../images/texture.png) 0 top repeat;
   color: #000;
 }
 .zone-postscript {
   padding: 40px 0;
 }
 .zone-footer-wrapper {
-  background: #fff url(../images/sail2.jpg) 0 top repeat;
-  color: #999;
+  background: #322D28; /*url(../images/sail2.jpg) 0 top repeat;*/
+  
 }
 .zone-footer {
   padding-top: 20px;
