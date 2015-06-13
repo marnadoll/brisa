@@ -235,19 +235,19 @@ blockquote {
     color: #E27400;
 }
 
-.zone-featureright-wrapper {
+
+.zone-featuremid-wrapper {
   background: #fff url(../images/texture.png) 0 top repeat;
   color: #000;
 }
-.zone-featureright {
+.zone-featuremid {
   padding: 40px 0;
 }
-
-.zone-featureleft-wrapper {
+.zone-featurebottom-wrapper {
   background: #fff url(../images/texture.png) 0 top repeat;
   color: #000;
 }
-.zone-featureleft {
+.zone-featurebottom {
   padding: 40px 0;
 }
 .zone-postscript-wrapper {
