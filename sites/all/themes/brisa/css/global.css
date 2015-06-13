@@ -235,6 +235,21 @@ blockquote {
     color: #E27400;
 }
 
+.zone-featureright-wrapper {
+  background: #fff url(../images/texture.png) 0 top repeat;
+  color: #000;
+}
+.zone-featureright {
+  padding: 40px 0;
+}
+
+.zone-featureleft-wrapper {
+  background: #fff url(../images/texture.png) 0 top repeat;
+  color: #000;
+}
+.zone-featureleft {
+  padding: 40px 0;
+}
 .zone-postscript-wrapper {
   background: #fff url(../images/texture.png) 0 top repeat;
   color: #000;
