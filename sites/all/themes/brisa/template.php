@@ -10,3 +10,11 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+function brisa_preprocess_page(&$vars, $hook) {
+  if (isset($vars['node']->type)) {
+    // If the content type's machine name is "my_machine_name" the file
+    // name will be "page--my-machine-name.tpl.php".
+    $vars['brisa_hook_suggestions'][] = 'page_' . $vars['node']->type;
+  }
+}

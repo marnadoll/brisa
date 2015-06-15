@@ -70,6 +70,8 @@ h6{
 }
 h1, h2, h3, h4, h5, h6 {
   color: #ccc;
+  font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
+  font-weight: bold;
 }
 p, address, pre, table {
   margin-bottom: 1.846em;
@@ -193,7 +195,6 @@ blockquote {
  
 }
 .region-sidebar-second-left {
-  
   position: static;
 }
 
@@ -224,29 +225,30 @@ blockquote {
 .not-front .zone-content-wrapper {
   background: none;
 }
-
 .zone-feature-wrapper {
   border-bottom: 1px solid #7BCED6;
-}
-
-.zone-feature {
-
 }
 .region-feature h2.block-title {
   border-bottom: none;
   padding-bottom: 5px;
   color: #E27400;
+  font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
+  font-weight: bold;
 }
-.region-feature tr {
-  background: #E27400;
-  
+.region-feature table {
+  background-color: #005092;
 }
-
-
 .zone-featuremid-wrapper {
   background: #fff url(../images/texture.png) 0 top repeat;
   color: #000;
 }
+.region-feature-right .content {
+  border:  1px #005092 solid;
+  height: 200px;
+}
+.region-feature_left
+.region-feature_bottom
+.region-feature_bottom_right
 .zone-featuremid {
   padding: 40px 0;
 }
@@ -266,7 +268,6 @@ blockquote {
 }
 .zone-footer-wrapper {
   background: #322D28; /*url(../images/sail2.jpg) 0 top repeat;*/
-  
 }
 .zone-footer {
   padding-top: 20px;
@@ -276,7 +277,7 @@ blockquote {
 	Node Block CSS
 \*------------------------------------*/
 /*
- * Using block class adding CSS selectors to theme node blocks.
+ * Using block class adding CSS selectors to theme node blocks. This test did not work.
  */
 
 /*.cancel-wrapper {
@@ -740,6 +741,7 @@ li a.active {
   margin: 0;
   padding: 0;
   text-align: left;
+  font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
 }
 
 #navigation ul.links li,
@@ -2858,7 +2860,8 @@ h2.block-title {
   margin-bottom: 20px;
   font-weight: normal;
   font-size: 150%;
-  font-family: 'Roboto Slab', Arial,Helvetica,Verdana,sans-serif;
+  font-family: 'Roboto', Arial,Helvetica,Verdana,sans-serif;
+  font-weight: bold;
 }
 
 .region-sidebar-second h2.block-title,
