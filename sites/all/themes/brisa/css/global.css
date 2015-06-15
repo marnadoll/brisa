@@ -69,7 +69,7 @@ h6{
   line-height:1.5;  /* 24px */
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #ccc;
 }
 p, address, pre, table {
   margin-bottom: 1.846em;
@@ -190,8 +190,11 @@ blockquote {
   padding-top: 5px;
 }
 .region-sidebar-second {
-  height: 380px;
-  padding: 5px;
+ 
+}
+.region-sidebar-second-left {
+  
+  position: static;
 }
 
 
@@ -230,9 +233,13 @@ blockquote {
 
 }
 .region-feature h2.block-title {
-    border-bottom: none;
-    padding-bottom: 5px;
-    color: #E27400;
+  border-bottom: none;
+  padding-bottom: 5px;
+  color: #E27400;
+}
+.region-feature tr {
+  background: #E27400;
+  
 }
 
 

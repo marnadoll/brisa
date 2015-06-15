@@ -111,3 +111,9 @@ Drupal.settings.cke_toolbar_DrupalFull = [
   ['DrupalBreak', 'DrupalPageBreak']
 ];
 
+
+// Trying to add custom template
+CKEDITOR.editorConfig = function(config) {
+config.templates_files = [ Drupal.settings.basePath +   'sites/all/themes/brisa/js/ckeditor.custom.templates.js' ]; 
+}
+

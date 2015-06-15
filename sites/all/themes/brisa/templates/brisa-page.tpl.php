@@ -10,9 +10,6 @@
 })
 </script>
 </div>
-<?php print render($content ['basic-waypoint']);
-?>
-
 
 <script src="/sites/all/themes/v50theme/js/jquery.waypoints.js"></script>
 <script src="/sites/all/themes/v50theme/js/waypoint.js"></script>

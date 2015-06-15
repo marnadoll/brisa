@@ -14,6 +14,7 @@ regions[branding] = 'Branding'
 regions[menu] = 'Menu'
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
+regions[sidebar_second_left] = 'Sidebar Second Left'
 regions[header_first] = 'Header First'
 regions[header_second] = 'Header Second'
 regions[preface_first] = 'Preface First'
@@ -52,6 +53,7 @@ stylesheets[all][] = css/brisa-reset.css
 stylesheets[all][] = css/global.css
 
 scripts[] = js/waypoints.js
+scripts[] = js/jquery.waypoints.js
 scripts[] = js/script.js
 scripts[] = js/custom.js
 
