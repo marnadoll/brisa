@@ -126,7 +126,7 @@ blockquote {
   border-bottom: /*1px solid #eee;*/
 }
 .zone-title-wrapper {
- /* background: #009efe url(../images/zone-header-wrapper-shadow.png) center top no-repeat;*/
+  background: #fff url(../images/chesapeake-baytrans.jpeg) center;
   color: #fff;
 }
 .zone-title {
